@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F4177E671F6F905300E3400A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4177E661F6F905300E3400A /* AppDelegate.swift */; };
-		F4177E691F6F905300E3400A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4177E681F6F905300E3400A /* ViewController.swift */; };
 		F4177E6C1F6F905300E3400A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4177E6A1F6F905300E3400A /* Main.storyboard */; };
 		F4177E6E1F6F905300E3400A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4177E6D1F6F905300E3400A /* Assets.xcassets */; };
 		F4177E711F6F905300E3400A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4177E6F1F6F905300E3400A /* LaunchScreen.storyboard */; };
 		F4177E7C1F6F905400E3400A /* LGSlideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4177E7B1F6F905400E3400A /* LGSlideTests.swift */; };
 		F4177E871F6F905400E3400A /* LGSlideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4177E861F6F905400E3400A /* LGSlideUITests.swift */; };
+		F4177EA31F6F90D500E3400A /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4177E961F6F90D500E3400A /* LGSideMenuBorderView.m */; };
+		F4177EA41F6F90D500E3400A /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4177E981F6F90D500E3400A /* LGSideMenuController.m */; };
+		F4177EA51F6F90D500E3400A /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F4177E9A1F6F90D500E3400A /* LGSideMenuGesturesHandler.m */; };
+		F4177EA61F6F90D500E3400A /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F4177E9C1F6F90D500E3400A /* LGSideMenuHelper.m */; };
+		F4177EA71F6F90D500E3400A /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F4177E9E1F6F90D500E3400A /* LGSideMenuSegue.m */; };
+		F4177EA81F6F90D500E3400A /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4177EA01F6F90D500E3400A /* LGSideMenuView.m */; };
+		F4177EA91F6F90D500E3400A /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4177EA21F6F90D500E3400A /* UIViewController+LGSideMenuController.m */; };
+		F4177ED51F6F9BA100E3400A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4177ED41F6F9BA100E3400A /* ViewController.swift */; };
+		F4177ED71F6F9BF200E3400A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4177ED61F6F9BF200E3400A /* MainViewController.swift */; };
+		F4177EDA1F6F9C1400E3400A /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4177ED81F6F9C1400E3400A /* LeftViewController.swift */; };
+		F4177EDB1F6F9C1400E3400A /* LeftViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4177ED91F6F9C1400E3400A /* LeftViewCell.swift */; };
+		F4177EDD1F6F9C4A00E3400A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4177EDC1F6F9C4A00E3400A /* NavigationController.swift */; };
+		F4177EDF1F6F9ED700E3400A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4177EDE1F6F9ED700E3400A /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +48,6 @@
 /* Begin PBXFileReference section */
 		F4177E631F6F905300E3400A /* LGSlide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGSlide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4177E661F6F905300E3400A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4177E681F6F905300E3400A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4177E6B1F6F905300E3400A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4177E6D1F6F905300E3400A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4177E701F6F905300E3400A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,27 @@
 		F4177E821F6F905400E3400A /* LGSlideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSlideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4177E861F6F905400E3400A /* LGSlideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGSlideUITests.swift; sourceTree = "<group>"; };
 		F4177E881F6F905400E3400A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4177E951F6F90D500E3400A /* LGSideMenuBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuBorderView.h; sourceTree = "<group>"; };
+		F4177E961F6F90D500E3400A /* LGSideMenuBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuBorderView.m; sourceTree = "<group>"; };
+		F4177E971F6F90D500E3400A /* LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuController.h; sourceTree = "<group>"; };
+		F4177E981F6F90D500E3400A /* LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuController.m; sourceTree = "<group>"; };
+		F4177E991F6F90D500E3400A /* LGSideMenuGesturesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuGesturesHandler.h; sourceTree = "<group>"; };
+		F4177E9A1F6F90D500E3400A /* LGSideMenuGesturesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuGesturesHandler.m; sourceTree = "<group>"; };
+		F4177E9B1F6F90D500E3400A /* LGSideMenuHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuHelper.h; sourceTree = "<group>"; };
+		F4177E9C1F6F90D500E3400A /* LGSideMenuHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuHelper.m; sourceTree = "<group>"; };
+		F4177E9D1F6F90D500E3400A /* LGSideMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuSegue.h; sourceTree = "<group>"; };
+		F4177E9E1F6F90D500E3400A /* LGSideMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuSegue.m; sourceTree = "<group>"; };
+		F4177E9F1F6F90D500E3400A /* LGSideMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuView.h; sourceTree = "<group>"; };
+		F4177EA01F6F90D500E3400A /* LGSideMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuView.m; sourceTree = "<group>"; };
+		F4177EA11F6F90D500E3400A /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
+		F4177EA21F6F90D500E3400A /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
+		F4177EAA1F6F90F800E3400A /* Obj_Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Obj_Bridge.h; sourceTree = "<group>"; };
+		F4177ED41F6F9BA100E3400A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4177ED61F6F9BF200E3400A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F4177ED81F6F9C1400E3400A /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		F4177ED91F6F9C1400E3400A /* LeftViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewCell.swift; sourceTree = "<group>"; };
+		F4177EDC1F6F9C4A00E3400A /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = LGSideMenuController/NavigationController.swift; sourceTree = "<group>"; };
+		F4177EDE1F6F9ED700E3400A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +129,19 @@
 		F4177E651F6F905300E3400A /* LGSlide */ = {
 			isa = PBXGroup;
 			children = (
+				F4177EDC1F6F9C4A00E3400A /* NavigationController.swift */,
+				F4177E941F6F90D500E3400A /* LGSideMenuController */,
 				F4177E661F6F905300E3400A /* AppDelegate.swift */,
-				F4177E681F6F905300E3400A /* ViewController.swift */,
 				F4177E6A1F6F905300E3400A /* Main.storyboard */,
 				F4177E6D1F6F905300E3400A /* Assets.xcassets */,
 				F4177E6F1F6F905300E3400A /* LaunchScreen.storyboard */,
 				F4177E721F6F905300E3400A /* Info.plist */,
+				F4177EAA1F6F90F800E3400A /* Obj_Bridge.h */,
+				F4177ED61F6F9BF200E3400A /* MainViewController.swift */,
+				F4177ED41F6F9BA100E3400A /* ViewController.swift */,
+				F4177ED81F6F9C1400E3400A /* LeftViewController.swift */,
+				F4177ED91F6F9C1400E3400A /* LeftViewCell.swift */,
+				F4177EDE1F6F9ED700E3400A /* ProfileViewController.swift */,
 			);
 			path = LGSlide;
 			sourceTree = "<group>";
@@ -123,6 +162,27 @@
 				F4177E881F6F905400E3400A /* Info.plist */,
 			);
 			path = LGSlideUITests;
+			sourceTree = "<group>";
+		};
+		F4177E941F6F90D500E3400A /* LGSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				F4177E951F6F90D500E3400A /* LGSideMenuBorderView.h */,
+				F4177E961F6F90D500E3400A /* LGSideMenuBorderView.m */,
+				F4177E971F6F90D500E3400A /* LGSideMenuController.h */,
+				F4177E981F6F90D500E3400A /* LGSideMenuController.m */,
+				F4177E991F6F90D500E3400A /* LGSideMenuGesturesHandler.h */,
+				F4177E9A1F6F90D500E3400A /* LGSideMenuGesturesHandler.m */,
+				F4177E9B1F6F90D500E3400A /* LGSideMenuHelper.h */,
+				F4177E9C1F6F90D500E3400A /* LGSideMenuHelper.m */,
+				F4177E9D1F6F90D500E3400A /* LGSideMenuSegue.h */,
+				F4177E9E1F6F90D500E3400A /* LGSideMenuSegue.m */,
+				F4177E9F1F6F90D500E3400A /* LGSideMenuView.h */,
+				F4177EA01F6F90D500E3400A /* LGSideMenuView.m */,
+				F4177EA11F6F90D500E3400A /* UIViewController+LGSideMenuController.h */,
+				F4177EA21F6F90D500E3400A /* UIViewController+LGSideMenuController.m */,
+			);
+			path = LGSideMenuController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +322,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4177E691F6F905300E3400A /* ViewController.swift in Sources */,
+				F4177ED71F6F9BF200E3400A /* MainViewController.swift in Sources */,
+				F4177EA51F6F90D500E3400A /* LGSideMenuGesturesHandler.m in Sources */,
+				F4177EA31F6F90D500E3400A /* LGSideMenuBorderView.m in Sources */,
+				F4177ED51F6F9BA100E3400A /* ViewController.swift in Sources */,
+				F4177EDF1F6F9ED700E3400A /* ProfileViewController.swift in Sources */,
+				F4177EA81F6F90D500E3400A /* LGSideMenuView.m in Sources */,
+				F4177EDA1F6F9C1400E3400A /* LeftViewController.swift in Sources */,
+				F4177EA41F6F90D500E3400A /* LGSideMenuController.m in Sources */,
+				F4177EDB1F6F9C1400E3400A /* LeftViewCell.swift in Sources */,
+				F4177EDD1F6F9C4A00E3400A /* NavigationController.swift in Sources */,
+				F4177EA91F6F90D500E3400A /* UIViewController+LGSideMenuController.m in Sources */,
+				F4177EA61F6F90D500E3400A /* LGSideMenuHelper.m in Sources */,
 				F4177E671F6F905300E3400A /* AppDelegate.swift in Sources */,
+				F4177EA71F6F90D500E3400A /* LGSideMenuSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +492,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.LGSlide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/gaurav/Documents/Gaurav/Swift/LGSlide/LGSlide/Obj_Bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -433,6 +506,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.LGSlide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/gaurav/Documents/Gaurav/Swift/LGSlide/LGSlide/Obj_Bridge.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

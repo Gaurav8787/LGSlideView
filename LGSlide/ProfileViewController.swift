@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ProfileViewController.swift
 //  LGSlide
 //
 //  Created by Gaurav on 18/09/17.
@@ -8,11 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        self.title = "Profile"
+        
         // Do any additional setup after loading the view.
     }
 
